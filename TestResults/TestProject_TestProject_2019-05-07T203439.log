@@ -1,0 +1,111 @@
+﻿2019-05-07T20:34:39.0553461+12:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-05-07T20:34:39.0553461+12:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.337 in Framework clr40 in x86 mode execution started
+2019-05-07T20:34:39.0553461+12:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\shani\source\repos\TestProject\TestProject\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-05-07T20:34:39.4623450+12:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\shani\source\repos\TestProject\TestProject\bin\Debug\TestProject.dll
+2019-05-07T20:34:39.4633403+12:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\shani\source\repos\TestProject\TestResults" (default)
+2019-05-07T20:34:39.4633403+12:00;VSTestExecutionThread;Info;Profile: TestProject
+2019-05-07T20:34:39.5253762+12:00;VSTestExecutionThread;Info;Log file path: C:\Users\shani\source\repos\TestProject\TestResults\TestProject_TestProject_2019-05-07T203439.log
+2019-05-07T20:34:39.5483445+12:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-05-07T20:34:39.5623770+12:00;Thread#13;Info;Checking license
+2019-05-07T20:34:39.6053479+12:00;Thread#13;Info;Evaluation mode: test execution starts in 13 seconds... (this delay is removed in the registered version)
+2019-05-07T20:34:52.6064253+12:00;Thread#13;Info;Evaluation delay finished.
+2019-05-07T20:34:52.6203697+12:00;Thread#13;Info;License check completed
+2019-05-07T20:34:52.6203697+12:00;Thread#13;Info;starting test run
+2019-05-07T20:34:52.6453692+12:00;Thread#13;Info;Discovering target: Default
+2019-05-07T20:34:52.6463699+12:00;Thread#13;Info;Discovering tests from assembly: C:\Users\shani\source\repos\TestProject\TestProject\bin\Debug\TestProject.dll
+2019-05-07T20:34:53.6783387+12:00:Appdomain Disposed
+2019-05-07T20:34:53.6783387+12:00;Thread#13;Info;Discovered tests from assembly: C:\Users\shani\source\repos\TestProject\TestProject\bin\Debug\TestProject.dll
+2019-05-07T20:34:53.6813517+12:00:Test Suite Dump
+2019-05-07T20:34:53.6873493+12:00:#0: TestProject/TestProject - 
+2019-05-07T20:34:53.6873493+12:00:#1: Default - 
+2019-05-07T20:34:53.6873493+12:00:#2: TestProject - 
+2019-05-07T20:34:53.6873493+12:00:#3: To test the Login Functionality of the Turn Up site - 
+2019-05-07T20:34:53.7963441+12:00:#4: Successful login - TestAssembly:TestProject/Feature:To+test+the+Login+Functionality+of+the+Turn+Up+site/Scenario:Successful+login
+2019-05-07T20:34:53.7963441+12:00:End: Test Suite Dump
+2019-05-07T20:34:53.8633381+12:00:Thread#0:Scheduler: get next test for thread 0
+2019-05-07T20:34:53.8703394+12:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2019-05-07T20:34:53.8703394+12:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-05-07T20:34:53.8853374+12:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-05-07T20:34:53.8853374+12:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-05-07T20:34:53.8853374+12:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-05-07T20:34:53.8853374+12:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-05-07T20:34:53.8883309+12:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-05-07T20:34:53.8903326+12:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-05-07T20:34:53.8983350+12:00:Thread #0: creating new test thread executor for TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-05-07T20:34:53.9043356+12:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-05-07T20:34:53.9063454+12:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-05-07T20:34:53.9063454+12:00:using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-05-07T20:34:54.0683696+12:00:Thread#0: Test #4/0 is started on thread #0
+2019-05-07T20:34:54.5643381+12:00:Thread#0:T:-> Loading plugin C:\Users\shani\source\repos\TestProject\TestProject\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-05-07T20:34:54.5833395+12:00:Thread#0:T:-> Using default config
+2019-05-07T20:34:58.7463496+12:00:Thread#0:B:Given I'm on the login Page
+2019-05-07T20:35:02.7573331+12:00:Thread#0:T:done: LoginFunctionalitySteps.GivenIMOnTheLoginPage() (3.9s)
+2019-05-07T20:35:02.7623473+12:00:Thread#0:B:When I enter credentials hari and 123123 and click login button
+2019-05-07T20:35:08.1745337+12:00:Thread#0:T:done: LoginFunctionalitySteps.WhenIEnterCredentialsHariAndAndClickLoginButton("hari", "123123") (5.4s)
+2019-05-07T20:35:08.1755325+12:00:Thread#0:B:Then Verify I'm on Home Page
+2019-05-07T20:35:08.5465381+12:00:Thread#0:T:error: Assert.Fail failed. Assert.Equals should not be used for Assertions. Please use Assert.AreEqual & overloads instead.
+2019-05-07T20:35:08.8745348+12:00:Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+2019-05-07T20:35:08.8755351+12:00:Thread#0:Scheduler: get next test for thread 0
+2019-05-07T20:35:08.8755351+12:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2019-05-07T20:35:08.8765348+12:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-05-07T20:35:08.8765348+12:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-05-07T20:35:08.8765348+12:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-05-07T20:35:08.8765348+12:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-05-07T20:35:08.8765348+12:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-05-07T20:35:08.8765348+12:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-05-07T20:35:08.8765348+12:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2019-05-07T20:35:08.9285367+12:00:Thread#0: Test #4/0 is finished on thread #0 as Failed within 14.8571888 seconds
+2019-05-07T20:35:08.9365346+12:00:Thread#0: Test #4/1 is started on thread #0
+2019-05-07T20:35:12.8475377+12:00:Thread#0:B:Given I'm on the login Page
+2019-05-07T20:35:17.2615354+12:00:Thread#0:T:done: LoginFunctionalitySteps.GivenIMOnTheLoginPage() (4.4s)
+2019-05-07T20:35:17.2625333+12:00:Thread#0:B:When I enter credentials hari and 123123 and click login button
+2019-05-07T20:35:22.8715312+12:00:Thread#0:T:done: LoginFunctionalitySteps.WhenIEnterCredentialsHariAndAndClickLoginButton("hari", "123123") (5.6s)
+2019-05-07T20:35:22.8715312+12:00:Thread#0:B:Then Verify I'm on Home Page
+2019-05-07T20:35:23.0475358+12:00:Thread#0:T:error: Assert.Fail failed. Assert.Equals should not be used for Assertions. Please use Assert.AreEqual & overloads instead.
+2019-05-07T20:35:23.0505336+12:00:Thread#0:Scheduler: get next test for thread 0
+2019-05-07T20:35:23.0505336+12:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2019-05-07T20:35:23.0505336+12:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-05-07T20:35:23.0505336+12:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-05-07T20:35:23.0505336+12:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-05-07T20:35:23.0505336+12:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-05-07T20:35:23.0505336+12:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-05-07T20:35:23.0505336+12:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-05-07T20:35:23.0505336+12:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2019-05-07T20:35:23.0525320+12:00:Thread#0: Test #4/1 is finished on thread #0 as Failed within 14.1159974 seconds
+2019-05-07T20:35:23.0535303+12:00:Thread#0: Test #4/2 is started on thread #0
+2019-05-07T20:35:27.3675349+12:00:Thread#0:B:Given I'm on the login Page
+2019-05-07T20:35:29.0865355+12:00:Thread#0:T:error: no such window: target window already closed
+2019-05-07T20:35:29.0865355+12:00:Thread#0:T:from unknown error: web view not found
+2019-05-07T20:35:29.0865355+12:00:Thread#0:T:  (Session info: chrome=73.0.3683.103)
+2019-05-07T20:35:29.0875318+12:00:Thread#0:T:  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64)
+2019-05-07T20:35:29.0875318+12:00:Thread#0:B:When I enter credentials hari and 123123 and click login button
+2019-05-07T20:35:29.0885320+12:00:Thread#0:T:skipped because of previous errors
+2019-05-07T20:35:29.0895351+12:00:Thread#0:B:Then Verify I'm on Home Page
+2019-05-07T20:35:29.0905367+12:00:Thread#0:T:skipped because of previous errors
+2019-05-07T20:35:29.0935336+12:00:Thread#0:Scheduler: get next test for thread 0
+2019-05-07T20:35:29.0935336+12:00:Thread#:Scheduler: at the end of normal test queue
+2019-05-07T20:35:29.0935336+12:00:Thread#0:Scheduler: enumerator for thread is at end
+2019-05-07T20:35:29.0935336+12:00:Thread#0:Scheduler: No more tests for thread
+2019-05-07T20:35:29.0995344+12:00:Thread#0: Test #4/2 is finished on thread #0 as Failed within 6.0460041 seconds
+2019-05-07T20:35:29.2225361+12:00:Appdomain Disposed
+2019-05-07T20:35:29.2285349+12:00:Trying to cancel thread
+2019-05-07T20:35:29.2285349+12:00:Thread cancelled
+2019-05-07T20:35:29.2565360+12:00:Thread#-1:Scheduler: get next test for thread -1
+2019-05-07T20:35:29.2565360+12:00:Thread#:Scheduler: at the end of normal test queue
+2019-05-07T20:35:29.2575353+12:00:Thread#-1:Scheduler: enumerator for thread is at end
+2019-05-07T20:35:29.2875354+12:00;Thread#13;Info;test run finished
+2019-05-07T20:35:29.2885357+12:00;Thread#13;Info;publishing test results
+2019-05-07T20:35:29.4245328+12:00;Thread#13;Info;test results published
+2019-05-07T20:35:29.4255332+12:00;Thread#13;Info;generating reports
+2019-05-07T20:35:30.2065344+12:00;Thread#13;Info;Starting external report generation process
+2019-05-07T20:35:35.2365306+12:00;Thread#13;Info;Successfully generated reports.
+2019-05-07T20:35:35.2405341+12:00;Thread#13;Info;Successfully generated reports
+2019-05-07T20:35:35.2625298+12:00:Total: 1 (test executions: 3)
+2019-05-07T20:35:35.2675390+12:00:Succeeded: 0
+2019-05-07T20:35:35.2695387+12:00:Ignored: 0
+2019-05-07T20:35:35.2705332+12:00:Pending: 0
+2019-05-07T20:35:35.2705332+12:00:Skipped: 0
+2019-05-07T20:35:35.2725375+12:00:Failed: 1
+2019-05-07T20:35:35.3035333+12:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-05-07T20:35:35.3045360+12:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\shani\source\repos\TestProject\TestResults\TestProject_TestProject_2019-05-07T203439.html'
+========== End of log file ==========

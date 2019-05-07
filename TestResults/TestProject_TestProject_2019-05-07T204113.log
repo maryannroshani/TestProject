@@ -1,0 +1,73 @@
+﻿2019-05-07T20:41:12.8347191+12:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-05-07T20:41:12.8347191+12:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.337 in Framework clr40 in x86 mode execution started
+2019-05-07T20:41:12.8347191+12:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\shani\source\repos\TestProject\TestProject\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-05-07T20:41:13.3136920+12:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\shani\source\repos\TestProject\TestProject\bin\Debug\TestProject.dll
+2019-05-07T20:41:13.3146847+12:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\shani\source\repos\TestProject\TestResults" (default)
+2019-05-07T20:41:13.3156877+12:00;VSTestExecutionThread;Info;Profile: TestProject
+2019-05-07T20:41:13.3966936+12:00;VSTestExecutionThread;Info;Log file path: C:\Users\shani\source\repos\TestProject\TestResults\TestProject_TestProject_2019-05-07T204113.log
+2019-05-07T20:41:13.4216875+12:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-05-07T20:41:13.4396942+12:00;Thread#13;Info;Checking license
+2019-05-07T20:41:13.4836895+12:00;Thread#13;Info;Evaluation mode: test execution starts in 8 seconds... (this delay is removed in the registered version)
+2019-05-07T20:41:21.4856834+12:00;Thread#13;Info;Evaluation delay finished.
+2019-05-07T20:41:21.5046778+12:00;Thread#13;Info;License check completed
+2019-05-07T20:41:21.5046778+12:00;Thread#13;Info;starting test run
+2019-05-07T20:41:21.5306934+12:00;Thread#13;Info;Discovering target: Default
+2019-05-07T20:41:21.5306934+12:00;Thread#13;Info;Discovering tests from assembly: C:\Users\shani\source\repos\TestProject\TestProject\bin\Debug\TestProject.dll
+2019-05-07T20:41:22.5376920+12:00:Appdomain Disposed
+2019-05-07T20:41:22.5376920+12:00;Thread#13;Info;Discovered tests from assembly: C:\Users\shani\source\repos\TestProject\TestProject\bin\Debug\TestProject.dll
+2019-05-07T20:41:22.5396791+12:00:Test Suite Dump
+2019-05-07T20:41:22.5457106+12:00:#0: TestProject/TestProject - 
+2019-05-07T20:41:22.5457106+12:00:#1: Default - 
+2019-05-07T20:41:22.5457106+12:00:#2: TestProject - 
+2019-05-07T20:41:22.5457106+12:00:#3: To test the Login Functionality of the Turn Up site - 
+2019-05-07T20:41:22.6447101+12:00:#5: Unsuccessful login - TestAssembly:TestProject/Feature:To+test+the+Login+Functionality+of+the+Turn+Up+site/Scenario:Unsuccessful+login
+2019-05-07T20:41:22.6447101+12:00:End: Test Suite Dump
+2019-05-07T20:41:22.7066848+12:00:Thread#0:Scheduler: get next test for thread 0
+2019-05-07T20:41:22.7126845+12:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2019-05-07T20:41:22.7126845+12:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2019-05-07T20:41:22.7266747+12:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2019-05-07T20:41:22.7266747+12:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2019-05-07T20:41:22.7266747+12:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2019-05-07T20:41:22.7266747+12:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2019-05-07T20:41:22.7306735+12:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2019-05-07T20:41:22.7356831+12:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-05-07T20:41:22.7446785+12:00:Thread #0: creating new test thread executor for TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-05-07T20:41:22.7486785+12:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-05-07T20:41:22.7516808+12:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-05-07T20:41:22.7526824+12:00:using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-05-07T20:41:22.9106782+12:00:Thread#0: Test #5/0 is started on thread #0
+2019-05-07T20:41:23.2806785+12:00:Thread#0:T:-> Loading plugin C:\Users\shani\source\repos\TestProject\TestProject\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-05-07T20:41:23.2986850+12:00:Thread#0:T:-> Using default config
+2019-05-07T20:41:27.6126798+12:00:Thread#0:B:Given I'm on the login Page
+2019-05-07T20:41:31.3762253+12:00:Thread#0:T:done: LoginFunctionalitySteps.GivenIMOnTheLoginPage() (3.7s)
+2019-05-07T20:41:31.3782256+12:00:Thread#0:B:When I enter credentials hari and 12312 and click login button
+2019-05-07T20:41:33.3612314+12:00:Thread#0:T:done: LoginFunctionalitySteps.WhenIEnterCredentialsHariAndAndClickLoginButton("hari", "12312") (2.0s)
+2019-05-07T20:41:33.3642432+12:00:Thread#0:B:Then I can see Error message displayed
+2019-05-07T20:41:33.5912299+12:00:Thread#0:T:done: LoginFunctionalitySteps.ThenICanSeeErrorMessageDisplayed() (0.2s)
+2019-05-07T20:41:33.6212287+12:00:Thread#0:Scheduler: get next test for thread 0
+2019-05-07T20:41:33.6212287+12:00:Thread#:Scheduler: at the end of normal test queue
+2019-05-07T20:41:33.6212287+12:00:Thread#0:Scheduler: enumerator for thread is at end
+2019-05-07T20:41:33.6212287+12:00:Thread#0:Scheduler: No more tests for thread
+2019-05-07T20:41:34.0612313+12:00:Thread#0: Test #5/0 is finished on thread #0 as Succeeded within 11.147553 seconds
+2019-05-07T20:41:34.1292298+12:00:Appdomain Disposed
+2019-05-07T20:41:34.1362294+12:00:Trying to cancel thread
+2019-05-07T20:41:34.1362294+12:00:Thread cancelled
+2019-05-07T20:41:34.1672340+12:00:Thread#-1:Scheduler: get next test for thread -1
+2019-05-07T20:41:34.1672340+12:00:Thread#:Scheduler: at the end of normal test queue
+2019-05-07T20:41:34.1672340+12:00:Thread#-1:Scheduler: enumerator for thread is at end
+2019-05-07T20:41:34.1782303+12:00;Thread#13;Info;test run finished
+2019-05-07T20:41:34.1792297+12:00;Thread#13;Info;publishing test results
+2019-05-07T20:41:34.3172302+12:00;Thread#13;Info;test results published
+2019-05-07T20:41:34.3182328+12:00;Thread#13;Info;generating reports
+2019-05-07T20:41:34.8312297+12:00;Thread#13;Info;Starting external report generation process
+2019-05-07T20:41:39.6572313+12:00;Thread#13;Info;Successfully generated reports.
+2019-05-07T20:41:39.6622292+12:00;Thread#13;Info;Successfully generated reports
+2019-05-07T20:41:39.6852349+12:00:Total: 1
+2019-05-07T20:41:39.6892250+12:00:Succeeded: 1
+2019-05-07T20:41:39.6912251+12:00:Ignored: 0
+2019-05-07T20:41:39.6922251+12:00:Pending: 0
+2019-05-07T20:41:39.6922251+12:00:Skipped: 0
+2019-05-07T20:41:39.6942249+12:00:Failed: 0
+2019-05-07T20:41:39.7352276+12:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-05-07T20:41:39.7362327+12:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\shani\source\repos\TestProject\TestResults\TestProject_TestProject_2019-05-07T204113.html'
+========== End of log file ==========
