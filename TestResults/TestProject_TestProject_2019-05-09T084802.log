@@ -1,0 +1,130 @@
+﻿2019-05-09T08:48:02.1726771+12:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-05-09T08:48:02.1726771+12:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.337 in Framework clr40 in x86 mode execution started
+2019-05-09T08:48:02.1726771+12:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\shani\source\repos\TestProject\TestProject\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-05-09T08:48:02.3246746+12:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\shani\source\repos\TestProject\TestProject\bin\Debug\TestProject.dll
+2019-05-09T08:48:02.3246746+12:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\shani\source\repos\TestProject\TestResults" (default)
+2019-05-09T08:48:02.3246746+12:00;VSTestExecutionThread;Info;Profile: TestProject
+2019-05-09T08:48:02.3516747+12:00;VSTestExecutionThread;Info;Log file path: C:\Users\shani\source\repos\TestProject\TestResults\TestProject_TestProject_2019-05-09T084802.log
+2019-05-09T08:48:02.3616799+12:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-05-09T08:48:02.3696846+12:00;Thread#15;Info;Checking license
+2019-05-09T08:48:02.3876746+12:00;Thread#15;Info;Evaluation mode: test execution starts in 14 seconds... (this delay is removed in the registered version)
+2019-05-09T08:48:16.3891414+12:00;Thread#15;Info;Evaluation delay finished.
+2019-05-09T08:48:16.4081785+12:00;Thread#15;Info;License check completed
+2019-05-09T08:48:16.4091776+12:00;Thread#15;Info;starting test run
+2019-05-09T08:48:16.4261394+12:00;Thread#15;Info;Discovering target: Default
+2019-05-09T08:48:16.4261394+12:00;Thread#15;Info;Discovering tests from assembly: C:\Users\shani\source\repos\TestProject\TestProject\bin\Debug\TestProject.dll
+2019-05-09T08:48:16.4811274+12:00:Appdomain Disposed
+2019-05-09T08:48:16.4811274+12:00;Thread#15;Info;Discovered tests from assembly: C:\Users\shani\source\repos\TestProject\TestProject\bin\Debug\TestProject.dll
+2019-05-09T08:48:16.4821263+12:00:Test Suite Dump
+2019-05-09T08:48:16.4841487+12:00:#0: TestProject/TestProject - 
+2019-05-09T08:48:16.4841487+12:00:#1: Default - 
+2019-05-09T08:48:16.4841487+12:00:#2: TestProject - 
+2019-05-09T08:48:16.4841487+12:00:#3: To test the Login Functionality of the Turn Up site - 
+2019-05-09T08:48:16.4971477+12:00:#4: Successful login - TestAssembly:TestProject/Feature:To+test+the+Login+Functionality+of+the+Turn+Up+site/Scenario:Successful+login
+2019-05-09T08:48:16.4971477+12:00:#5: Unsuccessful login - TestAssembly:TestProject/Feature:To+test+the+Login+Functionality+of+the+Turn+Up+site/Scenario:Unsuccessful+login
+2019-05-09T08:48:16.4971477+12:00:End: Test Suite Dump
+2019-05-09T08:48:16.5211467+12:00:Thread#0:Scheduler: get next test for thread 0
+2019-05-09T08:48:16.5231475+12:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2019-05-09T08:48:16.5231475+12:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-05-09T08:48:16.5271311+12:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-05-09T08:48:16.5271311+12:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-05-09T08:48:16.5271311+12:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-05-09T08:48:16.5271311+12:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-05-09T08:48:16.5291311+12:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-05-09T08:48:16.5301309+12:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-05-09T08:48:16.5321311+12:00:Thread #0: creating new test thread executor for TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-05-09T08:48:16.5341311+12:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-05-09T08:48:16.5341311+12:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-05-09T08:48:16.5351313+12:00:using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-05-09T08:48:16.6021254+12:00:Thread#0: Test #4/0 is started on thread #0
+2019-05-09T08:48:16.8651467+12:00:Thread#0:T:-> Loading plugin C:\Users\shani\source\repos\TestProject\TestProject\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-05-09T08:48:16.8891469+12:00:Thread#0:T:-> Using default config
+2019-05-09T08:48:18.7691304+12:00:Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+2019-05-09T08:48:18.7701285+12:00:Thread#0:Scheduler: get next test for thread 0
+2019-05-09T08:48:18.7701285+12:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2019-05-09T08:48:18.7701285+12:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-05-09T08:48:18.7701285+12:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-05-09T08:48:18.7701285+12:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-05-09T08:48:18.7701285+12:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-05-09T08:48:18.7701285+12:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-05-09T08:48:18.7701285+12:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-05-09T08:48:18.7701285+12:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2019-05-09T08:48:18.7781249+12:00:Thread#0: Test #4/0 is finished on thread #0 as Failed within 2.1759995 seconds
+2019-05-09T08:48:18.7801256+12:00:Thread#0: Test #4/1 is started on thread #0
+2019-05-09T08:48:18.7831266+12:00:Thread#0:T:warning: The previous ScenarioContext was not disposed.
+2019-05-09T08:48:20.2631290+12:00:Thread#0:Scheduler: get next test for thread 0
+2019-05-09T08:48:20.2631290+12:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2019-05-09T08:48:20.2631290+12:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-05-09T08:48:20.2631290+12:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-05-09T08:48:20.2631290+12:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-05-09T08:48:20.2631290+12:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-05-09T08:48:20.2631290+12:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-05-09T08:48:20.2631290+12:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-05-09T08:48:20.2631290+12:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2019-05-09T08:48:20.2651272+12:00:Thread#0: Test #4/1 is finished on thread #0 as Failed within 1.4850016 seconds
+2019-05-09T08:48:20.2651272+12:00:Thread#0: Test #4/2 is started on thread #0
+2019-05-09T08:48:20.2651272+12:00:Thread#0:T:warning: The previous ScenarioContext was not disposed.
+2019-05-09T08:48:21.6201264+12:00:Thread#0:Scheduler: get next test for thread 0
+2019-05-09T08:48:21.6201264+12:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2019-05-09T08:48:21.6201264+12:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2019-05-09T08:48:21.6201264+12:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2019-05-09T08:48:21.6201264+12:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2019-05-09T08:48:21.6201264+12:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2019-05-09T08:48:21.6201264+12:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2019-05-09T08:48:21.6201264+12:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2019-05-09T08:48:21.6201264+12:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-05-09T08:48:21.6221286+12:00:Thread#0: Test #4/2 is finished on thread #0 as Failed within 1.3570014 seconds
+2019-05-09T08:48:21.6221286+12:00:Thread#0: Test #5/0 is started on thread #0
+2019-05-09T08:48:21.6221286+12:00:Thread#0:T:warning: The previous ScenarioContext was not disposed.
+2019-05-09T08:48:23.1481263+12:00:Thread#0:TestItem#5:Scheduler: reschedule tests for testitem #5
+2019-05-09T08:48:23.1481263+12:00:Thread#0:Scheduler: get next test for thread 0
+2019-05-09T08:48:23.1481263+12:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+2019-05-09T08:48:23.1481263+12:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2019-05-09T08:48:23.1481263+12:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2019-05-09T08:48:23.1481263+12:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2019-05-09T08:48:23.1481263+12:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2019-05-09T08:48:23.1481263+12:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2019-05-09T08:48:23.1481263+12:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2019-05-09T08:48:23.1481263+12:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2019-05-09T08:48:23.1491260+12:00:Thread#0: Test #5/0 is finished on thread #0 as Failed within 1.5269974 seconds
+2019-05-09T08:48:23.1501269+12:00:Thread#0: Test #5/1 is started on thread #0
+2019-05-09T08:48:23.1501269+12:00:Thread#0:T:warning: The previous ScenarioContext was not disposed.
+2019-05-09T08:48:24.5851266+12:00:Thread#0:Scheduler: get next test for thread 0
+2019-05-09T08:48:24.5851266+12:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+2019-05-09T08:48:24.5851266+12:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2019-05-09T08:48:24.5851266+12:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2019-05-09T08:48:24.5851266+12:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2019-05-09T08:48:24.5851266+12:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2019-05-09T08:48:24.5851266+12:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2019-05-09T08:48:24.5851266+12:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2019-05-09T08:48:24.5851266+12:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2019-05-09T08:48:24.5861259+12:00:Thread#0: Test #5/1 is finished on thread #0 as Failed within 1.435999 seconds
+2019-05-09T08:48:24.5871253+12:00:Thread#0: Test #5/2 is started on thread #0
+2019-05-09T08:48:24.5871253+12:00:Thread#0:T:warning: The previous ScenarioContext was not disposed.
+2019-05-09T08:48:25.9056579+12:00:Thread#0:Scheduler: get next test for thread 0
+2019-05-09T08:48:25.9056579+12:00:Thread#:Scheduler: at the end of normal test queue
+2019-05-09T08:48:25.9056579+12:00:Thread#0:Scheduler: enumerator for thread is at end
+2019-05-09T08:48:25.9056579+12:00:Thread#0:Scheduler: No more tests for thread
+2019-05-09T08:48:25.9086565+12:00:Thread#0: Test #5/2 is finished on thread #0 as Failed within 1.3215312 seconds
+2019-05-09T08:48:25.9316575+12:00:Appdomain Disposed
+2019-05-09T08:48:25.9356556+12:00:Trying to cancel thread
+2019-05-09T08:48:25.9356556+12:00:Thread cancelled
+2019-05-09T08:48:25.9436584+12:00:Thread#-1:Scheduler: get next test for thread -1
+2019-05-09T08:48:25.9436584+12:00:Thread#:Scheduler: at the end of normal test queue
+2019-05-09T08:48:25.9436584+12:00:Thread#-1:Scheduler: enumerator for thread is at end
+2019-05-09T08:48:25.9496614+12:00;Thread#15;Info;test run finished
+2019-05-09T08:48:25.9496614+12:00;Thread#15;Info;publishing test results
+2019-05-09T08:48:25.9796584+12:00;Thread#15;Info;test results published
+2019-05-09T08:48:25.9796584+12:00;Thread#15;Info;generating reports
+2019-05-09T08:48:26.1076558+12:00;Thread#15;Info;Starting external report generation process
+2019-05-09T08:48:27.9036560+12:00;Thread#15;Info;Successfully generated reports.
+2019-05-09T08:48:27.9056595+12:00;Thread#15;Info;Successfully generated reports
+2019-05-09T08:48:27.9166532+12:00:Total: 2 (test executions: 6)
+2019-05-09T08:48:27.9196548+12:00:Succeeded: 0
+2019-05-09T08:48:27.9196548+12:00:Ignored: 0
+2019-05-09T08:48:27.9206532+12:00:Pending: 0
+2019-05-09T08:48:27.9206532+12:00:Skipped: 0
+2019-05-09T08:48:27.9216540+12:00:Failed: 2
+2019-05-09T08:48:27.9326594+12:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-05-09T08:48:27.9326594+12:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\shani\source\repos\TestProject\TestResults\TestProject_TestProject_2019-05-09T084802.html'
+========== End of log file ==========

@@ -1,0 +1,80 @@
+﻿2019-05-08T07:27:36.7893192+12:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-05-08T07:27:36.7893192+12:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.337 in Framework clr40 in x86 mode execution started
+2019-05-08T07:27:36.7893192+12:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\shani\source\repos\TestProject\TestProject\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-05-08T07:27:37.2403121+12:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\shani\source\repos\TestProject\TestProject\bin\Debug\TestProject.dll
+2019-05-08T07:27:37.2413129+12:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\shani\source\repos\TestProject\TestResults" (default)
+2019-05-08T07:27:37.2413129+12:00;VSTestExecutionThread;Info;Profile: TestProject
+2019-05-08T07:27:37.3053089+12:00;VSTestExecutionThread;Info;Log file path: C:\Users\shani\source\repos\TestProject\TestResults\TestProject_TestProject_2019-05-08T072737.log
+2019-05-08T07:27:37.3283134+12:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-05-08T07:27:37.3443161+12:00;Thread#15;Info;Checking license
+2019-05-08T07:27:37.3993140+12:00;Thread#15;Info;Evaluation mode: test execution starts in 13 seconds... (this delay is removed in the registered version)
+2019-05-08T07:27:50.4006222+12:00;Thread#15;Info;Evaluation delay finished.
+2019-05-08T07:27:50.4205684+12:00;Thread#15;Info;License check completed
+2019-05-08T07:27:50.4215689+12:00;Thread#15;Info;starting test run
+2019-05-08T07:27:50.4495687+12:00;Thread#15;Info;Discovering target: Default
+2019-05-08T07:27:50.4495687+12:00;Thread#15;Info;Discovering tests from assembly: C:\Users\shani\source\repos\TestProject\TestProject\bin\Debug\TestProject.dll
+2019-05-08T07:27:50.6015352+12:00:Appdomain Disposed
+2019-05-08T07:27:50.6015352+12:00;Thread#15;Info;Discovered tests from assembly: C:\Users\shani\source\repos\TestProject\TestProject\bin\Debug\TestProject.dll
+2019-05-08T07:27:50.6055381+12:00:Test Suite Dump
+2019-05-08T07:27:50.6105360+12:00:#0: TestProject/TestProject - 
+2019-05-08T07:27:50.6105360+12:00:#1: Default - 
+2019-05-08T07:27:50.6105360+12:00:#2: TestProject - 
+2019-05-08T07:27:50.6105360+12:00:#3: To test the Login Functionality of the Turn Up site - 
+2019-05-08T07:27:50.6505319+12:00:#4: Successful login - TestAssembly:TestProject/Feature:To+test+the+Login+Functionality+of+the+Turn+Up+site/Scenario:Successful+login
+2019-05-08T07:27:50.6505319+12:00:#5: Unsuccessful login - TestAssembly:TestProject/Feature:To+test+the+Login+Functionality+of+the+Turn+Up+site/Scenario:Unsuccessful+login
+2019-05-08T07:27:50.6505319+12:00:End: Test Suite Dump
+2019-05-08T07:27:50.7305389+12:00:Thread#0:Scheduler: get next test for thread 0
+2019-05-08T07:27:50.7365305+12:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2019-05-08T07:27:50.7365305+12:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-05-08T07:27:50.7515406+12:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-05-08T07:27:50.7515406+12:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-05-08T07:27:50.7515406+12:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-05-08T07:27:50.7515406+12:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-05-08T07:27:50.7555340+12:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-05-08T07:27:50.7585430+12:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-05-08T07:27:50.7775343+12:00:Thread #0: creating new test thread executor for TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-05-08T07:27:50.7865527+12:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-05-08T07:27:50.7885523+12:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-05-08T07:27:50.7895380+12:00:using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-05-08T07:27:51.0025388+12:00:Thread#0: Test #4/0 is started on thread #0
+2019-05-08T07:27:51.9085421+12:00:Thread#0:T:-> Loading plugin C:\Users\shani\source\repos\TestProject\TestProject\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-05-08T07:27:51.9815437+12:00:Thread#0:T:-> Using default config
+2019-05-08T07:27:57.9015388+12:00:Thread#0:B:Given I'm on the login Page
+2019-05-08T07:28:02.6605488+12:00:Thread#0:T:done: LoginFunctionalitySteps.GivenIMOnTheLoginPage() (4.6s)
+2019-05-08T07:28:02.6685417+12:00:Thread#0:B:When I enter credentials hari and 123123 and click login button
+2019-05-08T07:28:09.0141197+12:00:Thread#0:T:done: LoginFunctionalitySteps.WhenIEnterCredentialsHariAndAndClickLoginButton("hari", "123123") (6.3s)
+2019-05-08T07:28:09.0161253+12:00:Thread#0:B:Then Verify I'm on Home Page
+2019-05-08T07:28:09.2641246+12:00:Thread#0:T:done: LoginFunctionalitySteps.ThenVerifyIMOnHomePage() (0.2s)
+2019-05-08T07:28:09.3001234+12:00:Thread#0:Scheduler: get next test for thread 0
+2019-05-08T07:28:09.3001234+12:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2019-05-08T07:28:09.3001234+12:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2019-05-08T07:28:09.3001234+12:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2019-05-08T07:28:09.3001234+12:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2019-05-08T07:28:09.3011205+12:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2019-05-08T07:28:09.3011205+12:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2019-05-08T07:28:09.3011205+12:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2019-05-08T07:28:09.3011205+12:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-05-08T07:28:09.9711210+12:00:Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 18.9655837 seconds
+2019-05-08T07:28:09.9781224+12:00:Thread#0: Test #5/0 is started on thread #0
+2019-05-08T07:28:13.2921189+12:00:Thread#0:B:Given I'm on the login Page
+2019-05-08T07:28:17.5275974+12:00:Thread#0:T:done: LoginFunctionalitySteps.GivenIMOnTheLoginPage() (4.2s)
+2019-05-08T07:28:17.5285966+12:00:Thread#0:B:When I enter credentials hari and 12312 and click login button
+2019-05-08T07:28:20.0865934+12:00:Thread#0:T:done: LoginFunctionalitySteps.WhenIEnterCredentialsHariAndAndClickLoginButton("hari", "12312") (2.6s)
+2019-05-08T07:28:20.0876017+12:00:Thread#0:B:Then I can see Error message displayed
+2019-05-08T07:28:20.2525954+12:00:Thread#0:T:done: LoginFunctionalitySteps.ThenICanSeeErrorMessageDisplayed() (0.2s)
+2019-05-08T07:28:20.2525954+12:00:Thread#0:Scheduler: get next test for thread 0
+2019-05-08T07:28:20.2525954+12:00:Thread#:Scheduler: at the end of normal test queue
+2019-05-08T07:28:20.2525954+12:00:Thread#0:Scheduler: enumerator for thread is at end
+2019-05-08T07:28:20.2525954+12:00:Thread#0:Scheduler: No more tests for thread
+2019-05-08T07:28:20.7225939+12:00:Thread#0: Test #5/0 is finished on thread #0 as Succeeded within 10.7434727 seconds
+2019-05-08T07:28:20.7965964+12:00:Appdomain Disposed
+2019-05-08T07:28:20.8025969+12:00:Trying to cancel thread
+2019-05-08T07:28:20.8025969+12:00:Thread cancelled
+2019-05-08T07:28:20.8355931+12:00:Thread#-1:Scheduler: get next test for thread -1
+2019-05-08T07:28:20.8395934+12:00:Thread#:Scheduler: at the end of normal test queue
+2019-05-08T07:28:20.8395934+12:00:Thread#-1:Scheduler: enumerator for thread is at end
+2019-05-08T07:28:20.8515945+12:00;Thread#15;Info;test run finished
+2019-05-08T07:28:20.8545938+12:00;Thread#15;Info;publishing test results
+2019-05-08T07:28:21.0115941+12:00;Thread#15;Info;test results published
+2019-05-08T07:28:21.0115941+12:00;Thread#15;Info;generating reports
+2019-05-08T07:28:21.4655899+12:00;Thread#15;Info;Starting external report generation process
